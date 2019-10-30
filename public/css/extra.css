@@ -1,0 +1,117 @@
+.paper {
+  position: absolute;
+  height: 550px;
+  width: 450px;
+  background: rgba(255,255,255,0.9);
+  left: 15%;
+  margin-top:8%;
+  box-shadow: 0px 0px 5px 0px #888;
+}
+.paper::before {
+  content: '';
+  position: absolute;
+  left: 45px;
+  height: 100%;
+  width: 2px;
+  background: rgba(255,0,0,0.4);
+}
+.lines {
+  margin-top: 40px;
+  height: calc(100% - 40px);
+  width: 100%;
+  background-image: repeating-linear-gradient(white 0px, white 24px, steelblue 25px);
+}
+.Lettertext {
+  position: absolute;
+  top: 65px;
+  left: 55px;
+  bottom: 10px;
+  right: 10px;
+  line-height: 25px;
+  font-family: 'Bad Script', cursive;
+  font-weight:bold;
+  overflow: hidden;
+  outline: none;
+}
+
+td
+{
+    padding-left:15px;
+}
+
+.topgap
+{
+    margin-top:10%;
+}
+
+.buttonSubmit
+{
+    margin-top:10px;
+    margin-left:8px;
+}
+
+/*faq page */
+
+/* Main styles */
+.faq {
+  background-color: #fff;
+  color: #333;
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.faq h1 {
+  color: #336633;
+  font-weight: 500;
+  text-align: center;
+}
+
+.faq p {
+  font-size: 16px;
+}
+
+/* Accordion Styles*/
+.accordion-wrapper {
+  border: 1px solid #fff;
+  box-shadow: 0px 0px 5px -4px #000;
+  margin-bottom: 0.75em;
+}
+
+button.accordion {
+  background-color: skyblue;
+  color: #336633;
+  border: none;
+  font-size: 1.25em;
+  cursor: pointer;
+  outline: none;
+  padding: 0.5em 1.25em;
+  text-align: left;
+  transition: 0.8s;
+  width: 100%;
+}
+
+button.active,
+button.accordion:hover { 
+  color: #777;
+  background-color: #e1e1e1;
+}
+
+button.accordion:after {
+  content: "\002B";
+  float: right;
+}
+
+button.active.accordion:after {
+  content: "\2212";
+}
+
+.details-faq {
+  background-color: #ededed;
+  color: #777;
+  max-height: 0;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 0 1.5em;
+  transition: max-height 0.2s ease-out;
+}

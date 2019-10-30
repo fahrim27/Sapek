@@ -1,0 +1,123 @@
+/*--single--*/
+.single-para h4{
+	font-size:1.5em;
+	color:#747272;
+	line-height:1.5em;
+	font-weight: 600;
+}
+label.add-to{
+	display:block;
+	font-size: 2em;
+	color: #d2232a;
+}
+.single-para p{
+	font-size:1em;
+	color:#747272;
+	line-height:1.8em;
+}
+a.cart{
+  padding: 7px;
+  color: #FFF;
+  background: #d2232a;
+  margin: 1.5em 0 0;
+  font-size: 1em;
+  display: block;
+  line-height: 1.6em;
+  width: 32%;
+  text-align: center;
+  text-decoration:none;
+}
+a.cart:hover{
+	background: #0087d5;
+}
+.star {
+  padding: 1em 0;
+}
+.star ul {
+  float:left;
+}
+.star ul li{
+	display:inline-block;
+	vertical-align: sub;
+}
+.star ul li i{
+	height: 16px;
+	width: 16px;
+	background: url("/images/front/img-sprite.png") no-repeat -386px -114px ;
+	display: inline-block;
+}
+.review{
+	float:left;
+	  padding: 0 1em;
+}
+.star a{
+	text-decoration:none;
+	font-size:1em;
+}
+.single-bottom h4{
+	color:#000;
+	font-size:1.5em;
+	padding:0.5em;
+	border-bottom:1px solid #C5933D	
+}
+.single {
+  padding: 4em 0;
+}
+.available h6{
+	color:#d2232a;
+	font-size:1.4em;
+	padding: 0 0 1em;
+}
+.available ul li{
+	display:inline-block;
+	padding:0 0.5em 0 0;
+	color:#4c4c4c;
+	font-size:0.9em;
+}
+.available ul li select {
+  outline: none;
+  padding: 3px;
+}
+.available {
+  padding: 2em 0 1em;
+}
+.single-top{
+	padding:0;
+}
+/*--checkbox--*/
+.single-bottom ul{
+	padding:1em 0;
+}
+.single-bottom ul li{
+	list-style:none;
+	padding: 9px 20px;
+}
+.single-bottom ul li input[type="checkbox"] {
+  display: none;
+}
+.single-bottom ul li input[type="checkbox"]+label {
+  position: relative;
+  padding-left: 31px;
+  width: 100%;
+    font-size: 1em;
+}
+.single-bottom ul li input[type="checkbox"]+label span:first-child {
+  width: 18px;
+  height: 18px;
+  display: inline-block;
+  border: 2px solid #D2232A;
+  position: absolute;
+  left: 0;
+  bottom: 3px;
+}
+.single-bottom ul li input[type="checkbox"]:checked+label span:first-child:before {
+  content: "";
+  background:url(../images/11.png)no-repeat;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  font-size: 10px;
+  width:16px;
+  height:16px;
+  }
+/*----*/
